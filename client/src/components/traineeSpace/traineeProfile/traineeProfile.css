@@ -1,0 +1,16 @@
+.textBox {
+  display: flex;
+  flex-direction: row;
+  margin: 10px;
+}
+
+@media (max-width: 1216px) {
+  .profileContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+  .textBox {
+    flex-direction: column;
+  }
+}

@@ -1,0 +1,134 @@
+.membershipListHeader {
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 8%;
+}
+.membershipListHeader h1 {
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #111927;
+  padding: 15px;
+  margin: 15px;
+}
+.membershipDetails {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  background-color: #111927;
+  border-radius: 10px;
+  margin-bottom: 20px;
+  padding: 10px;
+  overflow-x: auto;
+}
+.membershipDeatils {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+.membershipAction {
+  align-self: center;
+  position: relative;
+  top: 120px;
+}
+.addMembership {
+  align-self: flex-end;
+}
+
+/* ---------- table styles ----------------- */
+
+.membershipDeatils  {
+  width: 100%;
+  overflow-x: auto;
+}
+
+
+table {
+  border-collapse: collapse;
+  /* width: 500px; */
+  /* min-width: 800px; */
+  margin: auto;
+  font-family: Arial, sans-serif;
+  margin-bottom: 10%;
+}
+
+td {
+  padding: 12px 15px;
+  text-align: center;
+  color: #ddd;
+  border-bottom: 1px solid #ddd;
+}
+
+th {
+  background-color: white;
+  color: #001830;
+  font-weight: bold;
+  text-transform: uppercase;
+  padding: 12px 15px;
+  text-align: center;
+  border-bottom: 1px solid #2b68a8;
+}
+
+tr:hover {
+  background-color: #0f263d;
+  color: #1c2331;
+}
+
+/* @media screen and (max-width: 767px) {
+  table {
+    display: block;
+    overflow-x: auto;
+    white-space: nowrap;
+  }
+
+  th,
+  td {
+    display: inline-block;
+    padding: 8px;
+    vertical-align: top;
+  }
+
+  th {
+    border: none;
+    background-color: transparent;
+    font-size: 14px;
+    font-weight: normal;
+    text-align: left;
+    text-transform: none;
+  }
+
+  tr {
+    border-bottom: 1px solid #ddd;
+  }
+
+  td {
+    border: none;
+    text-align: left;
+  }
+
+  td::before {
+    content: attr(data-label);
+    display: inline-block;
+    width: 80px;
+    margin-right: 12px;
+    font-weight: bold;
+    text-transform: uppercase;
+  }
+} */
+
+@media (max-width: 850px) {
+  .membershipDetails {
+    flex-direction: column;
+    align-items: center;
+
+  }
+  .membershipAction {
+    align-self: flex-end;
+    position: relative;
+    top: 0;
+  }
+  .addMembership {
+    align-self: flex-end;
+  }
+}

@@ -1,0 +1,103 @@
+.addMembershipHeader h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #111927;
+    padding: 15px;
+    margin: 15px;
+}
+.addMembershipForm{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.addMembershipForm .row{
+    display: flex;
+    flex-direction: row;
+}
+.addMembershipForm .col{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    width: 400px;
+    margin: 10px;
+}
+
+.addOffer{
+    width: 400px;
+    background-color: #111927;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+#offercol{
+    width: 400px;
+    background-color: #111927;
+    color :white;
+    border-radius: 5px;
+    margin: 3px;
+    padding: 3px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.deleteOffer{
+    padding: 3px;
+    margin: 3px;
+    background-color: brown;
+    border-radius: 3px;
+    max-height: 30px;
+}
+#offercol p{
+    padding: 3px;
+}
+.createPrices{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #111927;
+    padding: 15px;
+    margin: 15px;
+    align-self: flex-start;
+}
+.validateMembership{
+    width: 600px;
+    background-color: goldenrod;
+    padding: 7px;
+    border-radius: 5px;
+    color: white;
+}
+
+
+@media (max-width: 1216px) {
+    /* change flex direction */
+    /* .addMembershipForm{
+        flex-direction: column;
+    } */
+    .addMembershipForm .row{
+        flex-direction: column;
+    }
+    .addMembershipForm .col{
+        width: 100%;
+    }
+    .addMembershipForm{
+        width: 100%;
+    }
+    .addMembershipHeader h1{
+        font-size: 1.5rem;
+    }
+    .createPrices{
+        font-size: 1.5rem;
+    }
+    #offercol{
+        width: 100%;
+    }
+
+    .validateMembership{
+        width: 300px;
+    }
+
+}

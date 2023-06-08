@@ -1,0 +1,92 @@
+.LoginContent {
+  display: flex;
+  flex-direction: row;
+}
+.loginSection1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  height: 800px;
+  background-color: white;
+}
+.loginSection1 form {
+  max-width: 550px;
+  padding: 100px 24px;
+  width: 100%;
+}
+.loginSection1 h3 {
+  margin: 0px;
+  font-family: 'Plus Jakarta Sans', sans-serif;
+  font-weight: 700;
+  font-size: 2rem;
+  line-height: 1.2;
+  color: #2b68a8;
+}
+.loginSection1 p {
+  margin: 8px 0px 0px;
+  color: gray;
+  font-size: 0.875rem;
+  font-weight: 400;
+  line-height: 1.57;
+  margin-bottom: 5%;
+}
+.loginSection1 p a {
+  text-decoration: none;
+  color: #1976d2;
+  font-size: 0.875rem;
+  font-weight: 500;
+  line-height: 1.57;
+}
+.loginSection1 .custom-button {
+  background-color: #2b68a8;
+  width: 100%;
+  margin-top: 5%;
+}
+.loginSection2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 50%;
+  background-image: linear-gradient(
+      rgba(8, 20, 33, 0.341),
+      rgba(8, 20, 33, 0.429)
+    ),
+    url('../images/6.jpg');
+  background-size: cover;
+  background-position: center;
+  height: 800px;
+}
+.loginSection2 h1 {
+  color: white;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 35px;
+  margin-bottom: 5%;
+}
+.error {
+  color: brown;
+}
+
+@media screen and (max-width: 768px) {
+  .LoginContent {
+    flex-direction: column;
+  }
+  .loginSection1 {
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    height: 600px;
+  }
+
+  .loginSection1 form {
+    padding: 50px 24px;
+  }
+
+  .loginSection2 {
+    width: 100%;
+    /* height: 100%; */
+  }
+}

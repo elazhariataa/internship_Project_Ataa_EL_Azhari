@@ -1,0 +1,8 @@
+**/.DS_*
+**/*.log
+**/logs
+**/build
+**/**/*.backup.*
+**/**/*.back.*
+**/node_modules
+**/bower_components

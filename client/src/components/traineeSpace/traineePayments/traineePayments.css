@@ -1,0 +1,22 @@
+.traineePaymentsHeader{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.traineePaymentsHeader h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #111927;
+    padding: 15px;
+    margin: 15px;
+    margin-left: 6px;
+}
+.paymentsTable{
+    margin-top: 10%;
+}
+
+.card{
+    width: 100%;
+}

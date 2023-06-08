@@ -1,0 +1,288 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+
+.homeContent {
+  display: flex;
+  flex-direction: column;
+}
+
+.homeArticle1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(8, 20, 33, 0.63),
+      rgba(8, 20, 33, 0.652)
+    ),
+    url('../images/1.jpg');
+  background-size: cover;
+  background-image: center;
+  background-repeat: no-repeat;
+  background-position: center top;
+  background-color: rgba(0, 0, 0, 1.5);
+  width: 100%;
+  height: 750px;
+}
+.homeArticle1 .intro {
+  /* border: 2px solid green; */
+  margin-left: 10%;
+}
+.homeArticle1 .intro h1 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: calc(1.6470588235vw + 44.7294117647px);
+  line-height: calc(1.6470588235vw + 52.7294117647px);
+  letter-spacing: calc(+0.0888235294vw + +0.10117647059px);
+  /* letter-spacing: 8px; */
+}
+.homeArticle1 .intro p {
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+}
+.homeArticle1 button {
+  align-self: flex-end;
+  margin-right: 13%;
+  width: 250px;
+  font-family: 'Bebas Neue', sans-serif;
+  font-size: 25px;
+  letter-spacing: 5px;
+}
+
+.homeArticle2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  margin-top: 5%;
+}
+.homeArticle2 h2 {
+  font-size: 40px;
+  margin-bottom: 3%;
+}
+.homeArticle2 p {
+  text-align: center;
+  font-size: 25px;
+  line-height: 41px;
+  font-family: 'Averta-Semibold', sans-serif;
+}
+
+.homeArticle3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10%;
+  padding: 15px;
+  background-color: #081421;
+}
+.homeArticle3 h2 {
+  font-size: calc(2.3529411765vw + 24.4705882353px);
+  line-height: calc(2.3529411765vw + 32.4705882353px);
+  letter-spacing: -1px;
+  font-weight: 700;
+  margin-bottom: 13%;
+  color: white;
+}
+.homeArticle3 .part2 {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+}
+.homeArticle3 .service {
+  margin: 20px;
+}
+
+.homeArticle4 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-image: linear-gradient(
+      rgba(8, 20, 33, 0.63),
+      rgba(8, 20, 33, 0.652)
+    ),
+    url('../images/7.png');
+  background-size: cover;
+  background-image: center;
+  background-position: 60% top;
+  width: 100%;
+  height: 650px;
+}
+.homeArticle4 h2 {
+  font-family: 'Bebas Neue', sans-serif;
+  color: white;
+  font-size: calc(1.6470588235vw + 44.7294117647px);
+  line-height: calc(1.6470588235vw + 52.7294117647px);
+  letter-spacing: calc(+0.0888235294vw + +0.10117647059px);
+}
+.homeArticle4 p {
+  width: 70%;
+  font-size: 20px;
+  line-height: 1.6;
+  color: white;
+}
+.homeArticle4 div {
+  margin-top: 12%;
+  margin-left: 10%;
+}
+
+.homeArticle5 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  min-height: 600px;
+  background-color: #081421;
+}
+.homeArticle5 h2 {
+  font-size: calc(2.3529411765vw + 24.4705882353px);
+  line-height: calc(2.3529411765vw + 32.4705882353px);
+  letter-spacing: -1px;
+  font-weight: 700;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  color: white;
+  align-self: center;
+}
+.homeArticle5 .cards {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding: 10px;
+}
+.homeArticle5 .card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  width: 25%;
+  min-height: 400px;
+  padding: 10px;
+  margin: 10px;
+  color: white;
+  border: 1px solid #2b68a8;
+  background-color: #001830;
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+  transform: translateZ(0);
+  transition: transform 0.3s;
+}
+.homeArticle5 .card:hover {
+  transform: translateZ(50px);
+  box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.homeArticle5 .card .quote {
+  width: 50px;
+  height: 50px;
+  align-self: center;
+  margin-top: 5%;
+}
+.homeArticle5 .card .speech {
+  align-self: center;
+  text-align: center;
+}
+.homeArticle5 .card .whoIsHe {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  margin: 5px;
+}
+.homeArticle5 .card .whoIsHe img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  margin-right: 5%;
+}
+.homeArticle5 .card .whoIsHe2 p {
+  font-size: 13px;
+}
+
+@media (max-width: 768px) {
+  /* .homeArticle1 {
+    background-size: cover;
+  } */
+  .homeArticle1 .intro {
+    margin-left: 6%;
+    padding-right: 3%;
+  }
+  .homeArticle1 button {
+    margin: 10% auto;
+  }
+
+  .homeArticle2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    margin-top: 5%;
+    padding: 10px;
+  }
+  .homeArticle2 h2 {
+    font-size: 35px;
+    margin-bottom: 3%;
+  }
+  .homeArticle2 p {
+    text-align: center;
+    font-size: 15px;
+    line-height: 30px;
+  }
+
+  .homeArticle3 .part2 {
+    flex-wrap: wrap;
+  }
+  .homeArticle3 .service {
+    margin: 20px;
+  }
+
+  .homeArticle5 .cards {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: center;
+    padding: 10px;
+}
+.homeArticle5 .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 70%;
+    min-height: 400px;
+    padding: 10px;
+    margin: 10px;
+    color: white;
+    border: 1px solid #2b68a8;
+    background-color: #001830;
+    border-radius: 10px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.2);
+    transform: translateZ(0);
+    transition: transform 0.3s;
+}
+.homeArticle5 .card:hover {
+    transform: translateZ(50px);
+    box-shadow: 0px 0px 20px rgba(0, 0, 0, 0.4);
+}
+.homeArticle5 .card .quote {
+    width: 50px;
+    height: 50px;
+    align-self: center;
+    margin-top: 5%;
+  }
+  .homeArticle5 .card .speech {
+    align-self: center;
+    text-align: center;
+  }
+  .homeArticle5 .card .whoIsHe {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin: 5px;
+  }
+  .homeArticle5 .card .whoIsHe img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 5%;
+  }
+  .homeArticle5 .card .whoIsHe2 p {
+    font-size: 13px;
+  }
+}

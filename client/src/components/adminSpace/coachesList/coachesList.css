@@ -1,0 +1,26 @@
+.coachesListHearder h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #111927;
+    padding: 15px;
+    margin: 15px;
+}
+.coachesListHearder .impExp{
+    margin-left: 5%;
+}
+.coachesTable{
+    margin-top: 8%;
+}
+.coachesListHearderActions{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.coashSearchBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 3%;
+}

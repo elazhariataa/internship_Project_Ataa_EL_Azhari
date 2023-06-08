@@ -1,0 +1,17 @@
+.drawerHeader{
+    height: 173px;
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+}
+.drawerHeader div img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+}
+.dashboardAppBar{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}

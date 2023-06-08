@@ -1,0 +1,32 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+.App {
+  background-color: #181a1b;
+  /* background-color: #001830; */
+}
+.App main{
+  min-height: 100vh;
+}
+/* For Webkit based browsers (Chrome, Safari) */
+::-webkit-scrollbar {
+  width: 10px; /* Set the width of the scrollbar */
+  height: 10px;
+}
+
+::-webkit-scrollbar-track {
+  background: #f1f1f1; /* Set the background color of the track */
+}
+
+::-webkit-scrollbar-thumb {
+  background: #2b68a8; /* Set the color of the scroll thumb */
+  border-radius: 3px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+  background: #555; /* Set the color of the scroll thumb on hover */
+}
+
+
+

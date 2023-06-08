@@ -1,0 +1,43 @@
+.addCoashHeader h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #111927;
+    padding: 15px;
+    margin: 15px;
+}
+.addCoashForm{
+    margin-top: 4%;
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+}
+.addCoashForm form{
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+.addCoashForm .addUserPic{
+    width: 50%;
+}
+/* .addCoashForm form div{
+    display: flex;
+    flex-direction: row;
+} */
+.addCoashForm form div .textField{
+    margin-right: 7px;
+}
+
+
+@media (max-width: 768px) {
+    .addCoashForm{
+        flex-direction: column;
+    }
+    .addCoashForm form{
+        width: 100%;
+    }
+    .addCoashForm .addUserPic{
+        width: 100%;
+    }
+}

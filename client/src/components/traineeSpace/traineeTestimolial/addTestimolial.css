@@ -1,0 +1,55 @@
+.addTestimolialHeader h1{
+    font-family: "Plus Jakarta Sans", sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+    line-height: 1.2;
+    color: #111927;
+    padding: 15px;
+    margin: 15px;
+    margin-bottom: 5%;
+}
+.addTestimolialContent{
+    display: flex;
+    flex-direction: row;
+}
+.addTestimolialContent .createTestimolials{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50%;
+}
+.addTestimolialContent .addTestimolialsPic{
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+.addTestimolialsPic img{
+    width: 80%;
+}
+#content{
+    border: 2px solid #547a97;
+    border-radius: 10px;
+    margin-bottom: 2%;
+    padding: 5px;
+}
+
+@media (max-width: 768px) {
+    .addTestimolialHeader{
+        padding-top: 50px;
+    }
+
+    .addTestimolialContent{
+        flex-direction: column;
+    }
+
+    .addTestimolialContent .createTestimolials{
+        width: 100%;
+    }
+    .addTestimolialContent .addTestimolialsPic{
+        width: 100%;
+    }
+    .addTestimolialsPic img{
+        width: 100%;
+    }
+    
+}
